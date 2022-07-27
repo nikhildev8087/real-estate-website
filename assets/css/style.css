@@ -1,0 +1,107 @@
+.wrapper{position: relative; background-color: #F3F3F3; font-family: 'Montserrat', sans-serif;}
+.banner-img{width: 100%;height: 718px; background: url('../images/banner.jpg');}
+.wrapper .banner{padding: 40px 60px;}
+
+.banner h5{font-family: 'Lora';font-style: normal;font-weight: 400;font-size: 50px;line-height: 141.9%;/* or 77px */color: #434343; margin: 80px 0px;}
+
+a{color: unset; text-decoration: none;}
+
+/* common classes  */
+.est-btn.lg{font-style: normal;font-weight: 700;font-size: 26px;line-height: 133.4%;}
+.est-btn{background: #F9F9F9;box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(0, 0, 0, 0.08);border-radius: 20px; padding: 20px 25px; border: none; font-style: normal;font-weight: 700;font-size: 22px;line-height: 30px; color: #12B7B6;}
+.est-com{padding: 40px 60px; position: relative;}
+.est-box{background: #F3F3F3; box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(0, 0, 0, 0.09); border-radius: 20px; padding: 15px 20px;}
+.est-heading-dark h3{color: #fff;}
+.est-heading-dark p{color: #fff;}
+
+/* home page css  */
+.navbar-container{padding: 70px 100px;}
+.navbar-container .toggle-btn{width: 55px;height: 55px;background: #F9F9F9;box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(0, 0, 0, 0.08);border-radius: 42.5px; text-align: center;}
+.navbar-container .toggle-btn i{line-height: 55px; font-size: 14px;}
+.navbar-container nav li a{text-decoration: none ; color: #545454; font-weight: 700; font-size: 14px;}
+.navbar-container nav li .est-btn{color:#12B7B6;}
+.navbar-container .nav-item li a:hover{color: unset;}
+.card-slider .est-card{background: #F3F3F3;box-shadow: -20px -20px 50px #FFFFFF, 20px 20px 50px #D2D2D2; border-radius: 43px; position: relative; padding: 25px 20px; margin: 0px 40px;}
+.est-card .card-btn{background: #F9F9F9;box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(0, 0, 0, 0.08);border-radius: 42.5px; border: none; padding: 15px 70px; position: relative; width: 100%;}
+.est-card .arrow-btn{position: absolute; top: 0; right: 0; height: 50px; width: 50px; background: #F9F9F9;box-shadow: inset -10px -10px 20px #FFFFFF, inset 10px 10px 20px rgba(0, 0, 0, 0.08);border-radius: 50%; font-family: "Font Awesome 5 Pro"; }
+.est-card .arrow-btn{line-height: 50px;}
+.search-container{padding:20px 25px; background: #F9F9F9;box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(0, 0, 0, 0.09);border-radius: 20px;}
+.search-container .search-icon1{width: 100px; height: 100px; background: #F9F9F9;box-shadow: inset -10px -10px 20px #FFFFFF, inset 10px 10px 20px rgba(0, 0, 0, 0.08);border-radius: 50%;}
+.search-container .search-icon2{width: 90px; height: 90px; background: #F3F3F3;box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.18), inset 20px 20px 50px rgba(255, 255, 255, 0.25), inset -20px -20px 50px #CDCDCD, inset 20px 20px 50px #FFFFFF;border-radius: 50%; text-align: center;}
+.search-container .search-icon2 i{line-height: 90px; font-size: 30px;}
+.input-text .input-bar{background: #F9F9F9;box-shadow: inset -10px -10px 20px #FFFFFF, inset 10px 10px 20px rgba(0, 0, 0, 0.08);border-radius: 20px; border: none; padding: 20px 25px;}
+.ad-filter-btn{background: #F9F9F9;box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(0, 0, 0, 0.08); border-radius: 10px; border: none; padding: 15px 50px; width: 100%;}
+.pricing{position: absolute; top: 0; left: 0; padding: 40px;}
+.pricing button{border: none; border-radius: 10px; color: #fff;  background-color: unset; border: 2px solid #fff; margin: 0px 5px;}
+.localities .card-slider{position: relative; padding: 10px; overflow: hidden; background: #F3F3F3;box-shadow: -20px -20px 50px #FFFFFF, 20px 20px 50px #D2D2D2; border-radius: 10px; width: fit-content;}
+.card-slider img{position: relative; overflow: hidden; border-radius: 10px; margin: 0;}
+.card-slider .cart-slide-text{position: absolute; bottom: 0; padding: 15px; color: #fff;}
+
+.about-us{margin: 40px 0px;}
+.about-us .about-bg{ box-sizing: border-box; width: 100%; position: relative;}
+.about-us .about-content{background-color: #1F1F1F; padding: 30px 45px; color: #fff; height: 100%; position: absolute; top: 0;}
+.about-content .dropdowns ul li{list-style: none; padding: 10px 20px; border-bottom: 1px solid #fff;}
+.about-content .dropdowns ul li::before{content: '\f141'; font-size: 12px;color: #fff;font-family: "Font Awesome 5 Pro"; margin-right: 10px;}
+.about-content .dropdowns ul li::after{content: '\f107'; font-size: 12px;color: #fff;font-family: "Font Awesome 5 Pro"; float: right;}
+.about-content .social-icons i{margin-right: 20px;}
+
+.circle-container .circle1{width: 200px; height: 200px; text-align: center; background: #EDEDED;box-shadow: inset -20px -20px 50px #FFFFFF, inset 20px 20px 50px #CDCDCD;border-radius: 50%;}
+.circle-container .circle2{width: 150px; height: 150px; text-align: center; background: #EDEDED; box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.18), inset 20px 20px 50px rgba(255, 255, 255, 0.25), inset -20px -20px 50px #CDCDCD, inset 20px 20px 50px #FFFFFF; position: relative; border-radius: 50%;}
+.circle-container .circle2 .circle-icon{line-height: 150px;}
+
+.recent-project{background-color: #fff; padding: 25px 30px; position: relative;}
+.recent-project .project-img{position: relative; bottom: 0; right: 0;}
+/* padding: 25px 70px; */
+.contact-form-dark{background-color: #2D2D2D; }
+.contact-form-dark .input-dark{background: #2D2D2D;  border-radius: 10px; border: none; padding: 15px 20px; width: 100%; box-shadow: inset -10px -10px 30px #2B2B2B, inset 10px 10px 30px rgba(0, 0, 0, 0.45);}
+.contact-form-dark .dark-btn{background: #2D2D2D; border-radius: 10px; padding: 15px 20px; border: none; color: #12B7B6; box-shadow: -10px -10px 30px #2B2B2B, 10px 10px 30px rgba(0, 0, 0, 0.45);}
+
+.contact-form-dark p{color: #E0E0E0; margin-top: 15px;}
+.contact-form-dark .contact-form{padding: 30px 50px; }
+
+/* about-us page */
+.process-container{ position: relative; padding: 40px; border-radius: 50%; border: none; text-align: center; border-top-style: dotted; border-bottom-style: solid; height: 220px; width: 220px; }
+.process-container .number-circle{ position: absolute; top: 0; left: 0; background: #F9F9F9;box-shadow: inset -10px -10px 20px #FFFFFF, inset 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50%; height: 80px; width: 80px; text-align: center;}
+.process-container .number-circle1{ position: absolute; bottom: 0 ; left: 0 ; background: #F9F9F9;box-shadow: inset -10px -10px 20px #FFFFFF, inset 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50%; height: 80px; width: 80px; text-align: center;}
+.process-container .number-circle3{ position: absolute; bottom: 0; left: 0; background: #F9F9F9;box-shadow: inset -10px -10px 20px #FFFFFF, inset 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50%; height: 80px; width: 80px; text-align: center;}
+
+.process-container .number-circle3 h3{ line-height: 80px;}
+.process-container .number-circle1 h3{ line-height: 80px;}
+.process-container .number-circle h3{ line-height: 80px;}
+.process-flow{margin: 3px 70px;}
+.about-vector{padding: 0xp 85px !important;}
+.navbar-container-com{ padding: 20px 80px;}
+.about-banner{padding: 0px 150px;}
+.about-text-padding{padding: 0px 80px;}
+.f-bg{background-color: #1F1F1F;}
+.f-icons{text-align: center; color: #ffff; margin: auto;}
+.f-icons h4{margin-top: 20px; font-size: 20px;}
+.f-icons img{height: 50px;}
+.abt-circle .circle-icon{line-height: 200px;}
+.abt-circle .circle-icon img{height: 100px;}
+.circle-container .list-circle{width: 100px; height: 100px; text-align: center; background: #EDEDED;box-shadow: inset -20px -20px 50px #FFFFFF, inset 20px 20px 50px #CDCDCD;border-radius: 50%;}
+.circle-container .list-circle .circle-icon{line-height: 100px;}
+.circle-container .list-circle .circle-icon img{height:40px;}
+.objectives{padding: 30px 100px;}
+.logos .brand-img img{height: 80px;}
+.team-profile{margin-top: 30px;}
+.profile-card{background: #F3F3F3;box-shadow: -20px -20px 50px #FFFFFF, 20px 20px 50px #D2D2D2; border-radius: 10px; position: relative; margin: 0px 30px; width: fit-content;}
+.profile-card .profile-pic img{ overflow: hidden; }
+.profile-card .profile-name{padding: 10px 20px;} 
+
+.sketch-img{background-image: url('../images/sketch.png'); background-repeat: no-repeat; background-size: cover; height: 1000px; max-width: 100%; margin: 40px 0px; position: relative;}
+.sketch-img .text-upper{position: absolute; padding: 50px 200px; top: 0;width: 75%;}
+.sketch-img .text-bottom{position: absolute; padding: 50px 200px; bottom: 0; right: 0; width: 50%;} 
+.testimony-container{padding: 40px 80px;}
+.testimony-container .tesimony-card img{ width: auto; height: 300px;}
+.testimony-container .testimony-text{padding: 10px 80px;}
+
+
+
+
+
+
+
+
+
+
