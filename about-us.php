@@ -4,7 +4,7 @@
 <head>
 
     <?php  include 'css.php'?>
-    <title>Home Page</title>
+    <title>About Us</title>
 </head>
 
 <body>
@@ -202,7 +202,8 @@
 
         <!-- what we do section  -->
 
-    <?php include 'what-we-do.php'?>
+        <?php include 'what-we-do.php'?>
+
 
         <div class="est-com">
             <div class="est-heading">
@@ -297,7 +298,8 @@
                 <h3>Zeals Presence and Position in the indian real estate market</h3>
             </div>
             <div class="text-bottom">
-               <p>For the first time, prospective home-buyers can visit Zeal knowing that every listing consists New Age homes with the amenities and lifestyle features of the 21st century all in one place. </p>
+                <p>For the first time, prospective home-buyers can visit Zeal knowing that every listing consists New
+                    Age homes with the amenities and lifestyle features of the 21st century all in one place. </p>
             </div>
         </div>
 
@@ -317,12 +319,72 @@
                 </div>
 
                 <div class="testimony-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident.</p>
 
                 </div>
             </div>
+
+            <div class="testimony-arrow ">
+                <div class="d-flex  justify-content-center">
+                    <div class="direction-arrow">
+                        <div class="est-box">
+                            <i class="far fa-long-arrow-left"></i>
+                        </div>
+                    </div>
+                    <div class="direction-arrow ms-4">
+                        <div class="est-box">
+                            <i class="far fa-long-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
 
+        <div class="est-com">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <div class="location">
+                        <div class="est-heading">
+                            <h3>Where we are located</h3>
+                            <p>Zeal provides a quality, consumer driver platform for new property buyers.For the first
+                                time, prospective buyers will be able to access every listing consisting of New Age
+                                Homes or properties with amenities and life style features of the 21st century all in
+                                one place.
+                                Let’s meet!!</p>
+                        </div>
+                        <h6>LODHA Excelus, NM Joshi Marg, Mahalaxmi, Mumbai - 400 011</h6>
+
+                        <div class="about-content">
+                            <div class="social-icons">
+                                <div class="d-flex">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-youtube"></i>
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="location">
+                        <div class="map">
+                            <div class="est-box">
+
+                                <img src="./assets/images/map.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -346,7 +408,7 @@
     </div>
 
 
-<?php include 'js.php' ?>
+    <?php include 'js.php' ?>
 
 </body>
 
