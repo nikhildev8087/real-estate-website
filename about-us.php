@@ -361,7 +361,7 @@
                         <h6>LODHA Excelus, NM Joshi Marg, Mahalaxmi, Mumbai - 400 011</h6>
 
                         <div class="about-content">
-                            <div class="social-icons">
+                            <div class="social-icons mt-4">
                                 <div class="d-flex">
                                     <i class="fab fa-facebook-f"></i>
                                     <i class="fab fa-twitter"></i>
@@ -386,8 +386,41 @@
             </div>
         </div>
 
+        <div class="img-container">
+            <div class="img-bg">
+                <img src="./assets/images/room.jpg" class="img-fluid" alt="">
+                <div class="overlay">
+                    <div class="d-flex align-items-center">
+                        <div class="container-text">
+                            <div class="est-heading">
+                                <h3>Zeal Provides a quality, consumer driven Real Estate Portal for new-home buyers</h3>
+                                <p>Zeals business model is specially designed as a medium for developers to sell their inventory through our vast network of real estate broker</p>
+                                <p>We help developers reach their potential customers and connect with them effectively</p>
+                                <p>Introducing Zeal 3D a redefined way of interacting with real estate. Use Zeal3d.com for sales presentations in project booking offices</p>
+                                <p>Investors around the world looking to invest in Indian real estate can now surf through the listings in an innovative way from the most distinguished developers in India via a redefined 3D technology.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
+        <div class="est-com">
+            <div class="est-heading">
+                <h2>Do we have everything you're looking for</h2>
+                <h6>Drop us your contact details, we are always more <br> than happy to help.</h6>
+            </div>
+            <div class="sm-form">
+                <form action="">
+                    <div class="d-flex align-items-center ">
+                        <input type="text" placeholder="Your Name" class="est-input w-100 mx-4">
+                        <input type="email" class="est-input w-100 mx-4" name="" id="" placeholder="Your Email Address">
+                        <button class="input-btn est-btn w-100 mx-4">Get in Touch</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 
 
 
