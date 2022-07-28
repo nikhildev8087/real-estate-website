@@ -26,7 +26,7 @@
                 </div>
             </div>
         </div>
-        <div class="est-com p-0">
+        <div class="est-com">
             <div class="search-container">
                 <div class="row align-items-center">
                     <div class="col-md-10">
