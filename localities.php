@@ -24,15 +24,12 @@
         <div class="developer-banner">
             <div class="dev-img">
                 <img src="./assets/images/banner2.jpg" class="img-fluid  " alt="">
-
             </div>
             <div class="dev-text left-text">
                 <div class="d-flex w-75 ms-auto text-center">
                     <div class="est-heading">
-                        <h2>Check india's biggest developers <br> on board exclusive on zeal</h2>
-                        <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora similique repellendus
-                            blanditiis. Veritatis.</h6>
-
+                        <h2>Best Deals Guranteed on your <br> favourite localities by Zeal</h2>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipisc elit, sed do eiusmod tempor incididunt ut labore et.</h6>
                     </div>
                 </div>
             </div>

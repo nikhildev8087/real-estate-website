@@ -114,5 +114,11 @@ a{color: unset; text-decoration: none;}
 .company-profile .company-card{margin: 30px;}
 .developer-banner .left-text{left: 0; right: unset;}
 
-
+/* archive page  */
+.profile-buttons button{border-radius: 10px;color: #434343;background-color: unset;border: 2px solid #434343;margin: 0px 5px;}
+.profile-buttons button.active{border-radius: 10px;color: #29BDBC;background-color: unset;border: 2px solid #29BDBC;margin: 0px 5px;}
+.profile-buttons button:hover{border-radius: 10px;color: #29BDBC;background-color: unset;border: 2px solid #29BDBC;margin: 0px 5px;}
+.company-profile .company-grid{margin-top: 100px;}
+/* .company-profile .project-card{margin: 30px 10xp !important;} */
+.project-btn{padding: 15px 50px;}
 
