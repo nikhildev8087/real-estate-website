@@ -133,7 +133,7 @@
                         <h5>Total Breakdown</h5>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="est-box">
+                                <div class="est-box mb-5">
                                     <h4>Taxes & legal duties</h4>
                                     <h3>$ 40,0000</h3>
                                 </div>
@@ -145,7 +145,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="est-box">
+                                <div class="est-box mb-5 text-center">
                                     <h3>total</h3>
                                     <h2> $ 36,40,0000</h2>
                                 </div>
@@ -154,7 +154,30 @@
                     </div>
                 </div>
                 <div class="col-md-6">
+                    <div class="est-box ">
+                        <div class="mb-4">
+                            <label for="" class="d-block">Loan Amount</label>
+                            <input type="range" class="w-100" name="" id="">
+                        </div>
+                        <div class="mb-4">
+                            <label for="" class="d-block">Interest Rate</label>
+                            <input type="range" class="w-100" name="" id="">
+                        </div>
+                        <div class="mb-4">
+                            <label for="" class="d-block">Down Payment</label>
+                            <input type="range" class="w-100" name="" id="">
+                        </div>
+                        <div class="mb-4">
+                            <label for="" class="d-block">Tenure</label>
+                            <input type="range" class="w-100" name="" id="">
+                        </div>
+                        <hr>
+                        <div class="mb-4 text-center">
+                            <span>Mounthly Installments</span>
+                            <h3> $ 12,730</h3>
+                        </div>
 
+                    </div>
                 </div>
             </div>
         </div>
