@@ -4,7 +4,7 @@
 <head>
 
     <?php  include 'css.php'?>
-    <title>Property Description</title>
+    <title>Configuration Description</title>
 </head>
 
 <body>
@@ -16,17 +16,23 @@
         <div class="row m-0 p-0 align-items-center">
             <div class="col-md-4 p-0 m-0">
                 <div class="container">
-                    <h5>Lodha Group</h5>
-                    <span></span>
+                    <h4>Lodha </h4>
                     <h2>Imperial Heights</h2>
-                    <p>67,Nerul, Navi Mumbai Maharashra</p>
                 </div>
                 <div class="price container">
-                    $ 45Lakh -60Lakh
-                </div>
-                <div class="container">
-                    <p>Launching on</p>
-                    <h4>27 July 2021</h4>
+                    <div class="d-flex align-items-center mt-4">
+                        <img src="./assets/images/icons/bed.svg" alt="">
+                        <h3>3 BHK</h3>
+                        <label for="">Compact</label>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <img src="./assets/images/icons/area.svg" alt="">
+                        <h5>1200 Sq. Ft.</h5>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <img src="./assets/images/icons/rupee.svg" alt="">
+                        <h5>45 Lakhs</h5>
+                    </div>
                 </div>
             </div>
             <div class="col-md-8 p-0 m-0">
@@ -35,7 +41,6 @@
                 </div>
             </div>
         </div>
-
 
 
 
@@ -582,7 +587,6 @@
             </div>
         </div>
     </div>
-
 
 
 
