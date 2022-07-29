@@ -156,4 +156,4 @@ a{color: unset; text-decoration: none;}
 .review-container .review-points .half{ background-image:  linear-gradient(to right, #12B7B6 50% , #E3E3E3 50%); }
 
 
-
+#chartdiv {width: 100%; height: 500px;}
