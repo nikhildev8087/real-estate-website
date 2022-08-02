@@ -4,6 +4,10 @@
 <head>
 
     <?php  include 'css.php'?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Home Page</title>
 </head>
 
@@ -13,16 +17,17 @@
 
     <div class="wrapper">
         <!-- top banner  -->
-        <div class="banner">
+        <div class="">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="logo">
-                        <img src="./assets/images/logo.png" alt="" srcset="">
-                        <h5>We Help You
-                            Building The Dreams & Bring More Than You Expect</h5>
-                        <button class="est-btn">Search Properties
-                            <img src="./assets/images/icons/search.png" alt="">
-                        </button>
+                    <div class="banner">
+                        <div class="logo">
+                            <img src="./assets/images/logo.png" alt="" srcset="">
+                            <h5>We Help You Building The Dreams & Bring More Than You Expect</h5>
+                            <button class="est-btn">Search Properties
+                                <img src="./assets/images/icons/search.png" alt="">
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -188,8 +193,8 @@
 
                     </div>
                     <div class="col-md-2">
-                        <div class="search-icon1 ms-auto">
-                            <div class="search-icon2">
+                        <div class="search-icon1 ms-auto d-flex align-items-center">
+                            <div class="search-icon2 mx-auto">
                                 <i class="far fa-search"></i>
                             </div>
                         </div>
@@ -198,28 +203,28 @@
             </div>
         </div>
 
-        <div class="est-com">
+        <div class="image-slide-container">
             <div class="row">
-                <div class="col-md-2">
-                    <div class="img ">
-                        <img src="./assets/images/home3.jpg" height="500px" alt="">
+                <div class="col-md-2 p-0">
+                    <div class="img img-2 position-relative d-flex align-items-center justify-content-center">
+                        <img src="./assets/images/home3.jpg" height="500px" class="w-100" alt="">
                         <div class="bottom-text">
                             <h5>Aashiyana</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <div class="img ">
-                        <img src="./assets/images/home2.jpg" height="500px" alt="">
+                <div class="col-md-2 p-0">
+                    <div class="img img-2 position-relative d-flex align-items-center justify-content-center">
+                        <img src="./assets/images/home2.jpg" height="500px" class="w-100" alt="">
                         <div class="bottom-text">
                             <h5>Lodha Miracle</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 p-0">
                     <div class="img-container position-relative">
                         <div class="img ">
-                            <img src="./assets/images/home1.jpg" height="500px" alt="">
+                            <img src="./assets/images/home1.jpg" height="500px" class="w-100" alt="">
                             <div class="pricing ">
                                 <h5>Lodha Miracles</h5>
                                 <p>Andheri East, Mumbai</p>
@@ -235,6 +240,15 @@
                 </div>
             </div>
         </div>
+
+
+        <!-- owl carousel 1  -->
+
+        
+        <!-- owl carousel 1 -->
+
+
+
 
         <div class="est-com">
             <div class="est-heading">
@@ -295,7 +309,7 @@
 
         </div>
 
-        <div class="est-com">
+        <!-- <div class="est-com">
             <h4>Localities</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Itaque iste voluptatibus amet eos at.</p>
             <div class="localities">
@@ -329,7 +343,44 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+
+
+
+        <!-- owl carousel  -->
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class=" ">
+                    <img src="./assets/images/slider1.jpg" height="250px" alt="">
+                    <div class="cart-slide-text">
+                        <h3>Bandra </h3>
+                        <p>Sea-facing, specious</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class=" ">
+                    <img src="./assets/images/slider1.jpg" height="250px" alt="">
+                    <div class="cart-slide-text">
+                        <h3>Bandra </h3>
+                        <p>Sea-facing, specious</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="">
+                    <img src="./assets/images/slider1.jpg" height="250px" alt="">
+                    <div class="cart-slide-text">
+                        <h3>Bandra </h3>
+                        <p>Sea-facing, specious</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+
+
 
 
         <div class="about-us position-relative">
@@ -375,63 +426,7 @@
         </div>
 
         <!-- what we do  -->
-        <div class="est-com">
-            <div class="est-heading">
-                <h3>What We Do</h3>
-            </div>
-            <div class="circle">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="circle-container text-center p-4">
-                            <div class="circle1 mx-auto">
-                                <div class="circle2">
-                                    <div class="circle-icon">
-                                        <img src="./assets/images/icons/3dsPlan.png" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="circle-text mt-5">
-                                <h4>3D Planning</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione
-                                    suscipit itaque obcaecati aut quia veritatis?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="circle-container text-center p-4">
-                            <div class="circle1 mx-auto">
-                                <div class="circle2">
-                                    <div class="circle-icon">
-                                        <img src="./assets/images/icons/webplatform.png" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="circle-text mt-5">
-                                <h4>Web Platform</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione
-                                    suscipit itaque obcaecati aut quia veritatis?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="circle-container text-center p-4">
-                            <div class="circle1 mx-auto">
-                                <div class="circle2">
-                                    <div class="circle-icon">
-                                        <img src="./assets/images/icons/marketing.png" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="circle-text mt-5">
-                                <h4>Marketing</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione
-                                    suscipit itaque obcaecati aut quia veritatis?</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include 'what-we-do.php'?>
 
         <div class="est-com">
             <div class="recent-project">
@@ -480,24 +475,14 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
-   
 
 
-<?php include 'js.php' ?>
+    <?php include 'js.php' ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 

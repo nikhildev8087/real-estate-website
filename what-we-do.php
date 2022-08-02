@@ -7,8 +7,8 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="circle-container text-center p-4">
-                            <div class="circle1 mx-auto">
-                                <div class="circle2">
+                            <div class="circle1 d-flex align-items-center mx-auto">
+                                <div class="circle2 mx-auto">
                                     <div class="circle-icon">
                                         <img src="./assets/images/icons/3dsPlan.png" alt="" srcset="">
                                     </div>
@@ -23,8 +23,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="circle-container text-center p-4">
-                            <div class="circle1 mx-auto">
-                                <div class="circle2">
+                            <div class="circle1 d-flex align-items-center mx-auto">
+                                <div class="circle2 mx-auto">
                                     <div class="circle-icon">
                                         <img src="./assets/images/icons/webplatform.png" alt="" srcset="">
                                     </div>
@@ -39,8 +39,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="circle-container text-center p-4">
-                            <div class="circle1 mx-auto">
-                                <div class="circle2">
+                            <div class="circle1 d-flex align-items-center mx-auto">
+                                <div class="circle2 mx-auto">
                                     <div class="circle-icon">
                                         <img src="./assets/images/icons/marketing.png" alt="" srcset="">
                                     </div>

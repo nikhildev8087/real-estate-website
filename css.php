@@ -21,6 +21,10 @@
     <!-- font awesome cdn Font Awesome Pro 5.12.1 by @fontawesome - https://fontawesome.com -->
     <link rel="stylesheet" href="assets/vendor/fontawsome/all.min.css">
 
+    <!-- owl carousel links -->
+    <link rel="stylesheet" href="assets/vendor/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/vendor/owlcarousel/owl.theme.default.min.css">
+
     <!-- local css  -->
     <link rel="preload" href="assets/css/style.css" as="style">
     <link href="assets/css/style.css" rel="stylesheet">
