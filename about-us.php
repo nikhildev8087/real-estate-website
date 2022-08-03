@@ -210,23 +210,23 @@
                 <h3>Our Clients</h3>
             </div>
             <div class="logos">
-                <div class="row">
-                    <div class="col-md-3">
+                <div class="owl-carousel">
+                    <div class="item">
                         <div class="brand-img">
                             <img src="./assets/images/company_logo/brigade.png" alt="" srcset="">
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="item">
                         <div class="brand-img">
                             <img src="./assets/images/company_logo/lodha.png" alt="" srcset="">
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="item">
                         <div class="brand-img">
                             <img src="./assets/images/company_logo/prestige.png" alt="" srcset="">
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="item">
                         <div class="brand-img">
                             <img src="./assets/images/company_logo/brigade.png" alt="" srcset="">
                         </div>

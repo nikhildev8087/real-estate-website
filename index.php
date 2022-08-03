@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Home Page</title>
 </head>
@@ -166,6 +169,12 @@
                                     </div>
                                     <div class="plus-minus input-text ms-3">
                                         <input type="number" name="" class="input-bar w-100" id="">
+                                        <div class="after-circle">
+                                            <i class="fas fa-minus"></i>
+                                        </div>
+                                        <div class="before-circle">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
                                     </div>
 
                                 </div>
@@ -177,11 +186,19 @@
                                 <span>Price Segment</span>
                                 <div class="plus-minus input-text ms-3">
                                     <input type="text" name="" class="input-bar" id="" placeholder="Affordable">
-
+                                    <div class="after-circle">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </div>
+                                    <div class="before-circle">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
                                 </div>
-                                <span>Ready To Move</span>
+                                <span class="ms-4">Ready To Move</span>
                                 <div class="plus-minus input-text ms-3">
-                                    <input type="text" name="" class="input-bar" id="">
+                                    <input type="text" name="" class="input-bar w-100" id="">
+                                    <div class="after-circle">
+                                            <i class="fas fa-check"></i>
+                                        </div>
                                 </div>
                                 <div class="ms-3">
 
@@ -243,8 +260,76 @@
 
 
         <!-- owl carousel 1  -->
+        <div class="">
+        <div class="options">
+            <div class="option "
+                style=" background-image: url('./assets/images/home3.jpg');">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="icon">
+                        <i class="fas fa-walking"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">Blonkisoaz</div>
+                        <div class="sub">Omuke trughte a otufta</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option"
+                style=" background-image: url('./assets/images/home2.jpg');">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">Oretemauw</div>
+                        <div class="sub">Omuke trughte a otufta</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option active"
+                style=" background-image: url('./assets/images/home1.jpg');">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">Iteresuselle</div>
+                        <div class="sub">Omuke trughte a otufta</div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="option"
+                style="--optionBackground:url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">Idiefe</div>
+                        <div class="sub">Omuke trughte a otufta</div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="option"
+                style="--optionBackground:url(https://66.media.tumblr.com/f19901f50b79604839ca761cd6d74748/tumblr_o65rohhkQL1qho82wo1_1280.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">Inatethi</div>
+                        <div class="sub">Omuke trughte a otufta</div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
 
-        
         <!-- owl carousel 1 -->
 
 
@@ -261,7 +346,6 @@
             <div class="process-flow">
                 <div class="row">
                     <div class="col-md-3">
-
                         <div class="process-container">
                             <img src="./assets/images/icons/search.png" alt="">
                             <h5>Esplore</h5>
@@ -303,13 +387,11 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
 
-        <!-- <div class="est-com">
+        <div class="est-com">
             <h4>Localities</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Itaque iste voluptatibus amet eos at.</p>
             <div class="localities">
@@ -343,14 +425,14 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
 
 
         <!-- owl carousel  -->
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-theme localities" id="slide-testimonal">
             <div class="item">
-                <div class=" ">
+                <div class="card-slider  mx-auto">
                     <img src="./assets/images/slider1.jpg" height="250px" alt="">
                     <div class="cart-slide-text">
                         <h3>Bandra </h3>
@@ -359,7 +441,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class=" ">
+                <div class="card-slider  mx-auto">
                     <img src="./assets/images/slider1.jpg" height="250px" alt="">
                     <div class="cart-slide-text">
                         <h3>Bandra </h3>
@@ -368,7 +450,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="">
+                <div class="card-slider  mx-auto">
                     <img src="./assets/images/slider1.jpg" height="250px" alt="">
                     <div class="cart-slide-text">
                         <h3>Bandra </h3>
@@ -477,12 +559,17 @@
 
     </div>
 
-
-
-    <?php include 'js.php' ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <?php include 'js.php' ?>
+
+
 
 </body>
 

@@ -33,42 +33,59 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <div class="input-text">
-                                    <input type="text" class="input-bar w-100"
-                                        placeholder="Search Property name, Locality, Developer">
+                                    <input type="text" class="input-bar w-100" placeholder="Search Locality">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="d-flex align-items-center">
-                                    <div class="">
-                                        <span class="d-inline">Bedrooms</span>
-                                    </div>
-                                    <div class="plus-minus input-text ms-3">
-                                        <input type="number" name="" class="input-bar w-100" id="">
+                                    <div class="plus-minus input-text ms-3  w-100">
+                                        <input type="number" name="" class="input-bar  w-100" placeholder="All tags"
+                                            id="">
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-12 mt-5">
-                            <div class="d-flex align-items-center">
-                                <span>Price Segment</span>
-                                <div class="plus-minus input-text ms-3">
-                                    <input type="text" name="" class="input-bar" id="" placeholder="Affordable">
-
+                            <div class="row align-items-center ">
+                                <div class="col-md-8">
+                                    <div class="d-flex align-items-center">
+                                        <button class="filter-btn">1BHK</button>
+                                        <button class="filter-btn">2BHK</button>
+                                        <button class="filter-btn">Rental</button>
+                                        <button class="filter-btn">Luxury</button>
+                                        <button class="filter-btn">Spacious</button>
+                                    </div>
                                 </div>
-                                <span>Ready To Move</span>
-                                <div class="plus-minus input-text ms-3">
-                                    <input type="text" name="" class="input-bar" id="">
-                                </div>
-                                <div class="ms-3">
-
-                                    <button class="ad-filter-btn">Advance Filter</button>
+                                <div class="col-md-4">
+                                    <div class="plus-minus input-text ms-3">
+                                        <input type="text" name="" class="input-bar w-100" id=""
+                                            placeholder="Early development stage">
+                                        <div class="after-circle">
+                                            <i class="fas fa-arrow-left"></i>
+                                        </div>
+                                        <div class="before-circle">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <div class="neumorphic-slider" onselectstart="return false" style="margin-top: 100px;">
+                                    <div class="neumorphic-slider__back"></div>
+                                    <div class="neumorphic-slider__line"></div>
+                                    <div class="neumorphic-slider__thumb"></div>
+                                    <div class="neumorphic-slider__popover">40%</div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="col-md-2">
-                        <div class="search-icon1 ms-auto">
-                            <div class="search-icon2">
+                        <div class="search-icon1 ms-auto d-flex align-items-center justify-content-center">
+                            <div class="search-icon2 ">
                                 <i class="far fa-search"></i>
                             </div>
                         </div>
@@ -76,8 +93,13 @@
                 </div>
             </div>
         </div>
+
+
+
         <div class="est-com">
             <div class="company-profile">
+
+
 
                 <div class="row">
                     <div class="col-md-6">

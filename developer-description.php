@@ -74,8 +74,8 @@
 
         <div class="est-com">
             <div class="property-card-container">
-                <div class="row">
-                    <div class="col-md-3">
+                <div class=" owl-carousel">
+                    <div class=" item">
                         <div class="card property-box">
                             <div class="prt-card-img">
                                 <img src="./assets/images/project1.jpg" class="card-img-top" alt="...">
@@ -86,7 +86,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class=" item">
                         <div class="card property-box">
                             <div class="prt-card-img">
                                 <img src="./assets/images/project2.jpg" class="card-img-top" alt="...">
@@ -97,7 +97,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class=" item">
                         <div class="card property-box">
                             <div class="prt-card-img">
                                 <img src="./assets/images/project3.jpg" class="card-img-top" alt="...">
@@ -109,7 +109,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class=" item">
                         <div class="card property-box">
                             <div class="prt-card-img">
                                 <img src="./assets/images/project1.jpg" class="card-img-top" alt="...">
